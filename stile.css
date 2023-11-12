@@ -1,0 +1,685 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+body {
+  background: #100e14;
+  font-family: "roboto", sans-serif;
+}
+.header a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+}
+
+#header {
+  background: rgba(128, 128, 128, 0.856);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  backdrop-filter: blur(4px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.classcamp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+.header-sign {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+#hero {
+  padding: 50px 0 0 0;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 63px;
+  font-weight: 400;
+  letter-spacing: 2.88px;
+}
+.hero h3 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  padding: 44px 0 88px 0;
+}
+.hero p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+  padding: 20px 0 50px 0;
+}
+.btn {
+  display: inline-flex;
+  padding: 15px 46px 24px 30px;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  background: #ff4343;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 26.4px;
+  letter-spacing: 0.42px;
+  cursor: pointer;
+}
+.hero-img1 {
+  position: relative;
+}
+.hero-img2 {
+  position: absolute;
+  padding-left: 580px;
+  padding-top: 415px;
+}
+
+#shoot {
+  padding: 20px 100px;
+  display: flex;
+}
+.shoot {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+.shoot h1 {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 70.4px;
+  letter-spacing: 1.92px;
+}
+.shoot p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 37.8px;
+  letter-spacing: 1.08px;
+  padding: 50px 0 50px 0;
+}
+.shoot-image {
+  margin-top: 100px;
+}
+.image1 {
+  position: relative;
+}
+.image2 {
+  position: absolute;
+  bottom: 0;
+  top: 1100px;
+  right: 400px;
+}
+
+#enrich {
+  padding: 100px 0;
+}
+.enrich {
+  display: flex;
+  gap: 300px;
+}
+.foto1 {
+  position: relative;
+}
+.foto2 {
+  position: absolute;
+  bottom: -1500px;
+}
+.enrich h1 {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 70.4px;
+  letter-spacing: 1.92px;
+}
+.enrich p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 37.8px;
+  letter-spacing: 1.08px;
+}
+.enrich p span {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 37.8px;
+  letter-spacing: 1.08px;
+}
+.text {
+  padding-top: 50px;
+}
+
+#add {
+  padding: 100px 0 100px 0;
+}
+.add {
+  display: flex;
+  justify-content: space-around;
+}
+.add h1 {
+  color: #fff;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 70.4px;
+  letter-spacing: 3.2px;
+}
+.add p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 37.8px;
+  letter-spacing: 1.08px;
+}
+.add p span {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 37.8px;
+  letter-spacing: 1.08px;
+}
+
+#second {
+  padding: 200px 0;
+}
+
+.second {
+  display: flex;
+  justify-content: space-around;
+}
+.box {
+  width: 600px;
+  height: 350px;
+  background-color: #231f2b;
+  border-radius: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.links {
+  position: absolute;
+  bottom: 0;
+  left: 110px;
+}
+.youtube {
+  position: relative;
+  background-color: red;
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+.youtube span {
+  font-size: 30px;
+  color: white;
+}
+.instagram {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.instagram span {
+  font-size: 30px;
+  color: white;
+}
+.vk {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: rgb(125, 6, 172);
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.vk span {
+  font-size: 30px;
+  color: white;
+}
+
+.tiktok {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: black;
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tiktok span {
+  font-size: 30px;
+  color: white;
+}
+
+.twitter {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: rgb(81, 81, 255);
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.twitter span {
+  font-size: 30px;
+  color: white;
+}
+
+.in {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: rgb(58, 71, 116);
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.in span {
+  font-size: 30px;
+  color: white;
+}
+.sms {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: rgb(36, 68, 66);
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.sms span {
+  font-size: 30px;
+  color: white;
+}
+.whatsapp {
+  position: absolute;
+  top: 0;
+  right: -60px;
+  background: rgb(73, 219, 105);
+  width: 70px;
+  height: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 40px;
+}
+.whatsapp span {
+  font-size: 30px;
+  color: white;
+}
+
+.second h1 {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 70.4px;
+  letter-spacing: 1.92px;
+}
+.second p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 37.8px;
+  letter-spacing: 1.08px;
+}
+.second span {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.8px;
+  letter-spacing: 1.08px;
+}
+
+#craft {
+  padding: 150px 0;
+}
+.craft {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.craft h1 {
+  color: #fff;
+  font-size: 61px;
+  font-weight: 400;
+  line-height: 83.2px;
+  letter-spacing: 2.56px;
+}
+.craft-line {
+  width: 120px;
+  height: 5px;
+  background: #ff4343;
+  margin: 38px 0 34px 0;
+}
+.craft p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 37.8px;
+  letter-spacing: 0.42px;
+}
+.photo {
+  display: flex;
+  gap: 15px;
+  padding: 60px 0;
+}
+.crafts {
+  position: relative;
+}
+.craft-text {
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+}
+.craft-text h4 {
+  color: #fff;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 34.8px;
+  letter-spacing: 0.42px;
+}
+.craft-text h5 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+.craft-text p {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+#card {
+  padding: 50px 0;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card h5 {
+  color: #8bffb0;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+.card h1 {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 83.2px;
+  letter-spacing: 1.92px;
+}
+.card p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 39.2px;
+  letter-spacing: 0.42px;
+  padding: 50px 0;
+}
+.first {
+  position: relative;
+}
+.two {
+  position: absolute;
+  top: 0;
+}
+
+#teach {
+  padding-top: 50px;
+}
+.teach {
+  border-radius: 30px;
+  background: #1d1b24;
+  padding: 30px 90px;
+  width: 1120px;
+  height: 443px;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+}
+.teach h1 {
+  color: #fff;
+  font-size: 63px;
+  font-weight: 400;
+  line-height: 91px;
+  letter-spacing: 2.1px;
+  padding: 40px 0;
+}
+.teach p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 36.4px;
+  letter-spacing: 0.42px;
+}
+.btn1 {
+  padding: 15px 46px 24px 30px;
+  gap: 12px;
+  background: #ff4343;
+  color: #fff;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 26.4px;
+  letter-spacing: 0.42px;
+  margin: 40px;
+}
+
+#lesson {
+  background: url(./img/image33.png), cover no-repeat;
+  height: 432px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.lesson {
+  text-align: center;
+  align-items: center;
+  padding: 150px;
+}
+.lesson h1 {
+  color: #fff;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 48.837px;
+  letter-spacing: 0.42px;
+}
+.lesson p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.42px;
+  padding: 14px;
+}
+
+#wild {
+  padding: 100px 0;
+}
+.wild {
+  display: flex;
+  flex-direction: column;
+}
+.wild-img {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  padding: 50px 0;
+  position: relative;
+}
+.wild-box {
+  width: 370px;
+  height: 450px;
+  background: #8bffb0;
+}
+.wild-text {
+  display: flex;
+}
+
+.wild h1 {
+  color: #fff;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 70.4px;
+  letter-spacing: 1.92px;
+  padding-left: 160px;
+}
+
+.wilds {
+  width: 309px;
+  height: 264px;
+  padding: 30px;
+}
+.wilds h3 {
+  color: #95fec1;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+.wilds h2 {
+  color: #fff;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.42px;
+}
+.wilds p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.42px;
+  padding-top: 20px;
+}
+.wild-box h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+.nova h1 {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 20px;
+  position: absolute;
+  bottom: 110px;
+  left: 100px;
+}
+.nova p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.42px;
+  position: absolute;
+  bottom: 70px;
+  left: 260px;
+}
+#footer {
+  background: #000;
+  /* padding: 100px 0; */
+  height: 430px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 240px;
+  padding: 120px 0;
+}
+
+.footer-company {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.product h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.18px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+.product p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.16px;
+}
+.icons {
+  width: 100px;
+  height: 100px;
+  gap: 10px;
+  color: white;
+  display: flex;
+}
